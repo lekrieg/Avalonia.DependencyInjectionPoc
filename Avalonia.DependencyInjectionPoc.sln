@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.DependencyInjectionPoc", "Avalonia.DependencyInjectionPoc\Avalonia.DependencyInjectionPoc\Avalonia.DependencyInjectionPoc.csproj", "{92FB4894-4CB8-4CD4-ACE3-C39B66E20A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.DependencyInjectionPoc.Android", "Avalonia.DependencyInjectionPoc\Avalonia.DependencyInjectionPoc.Android\Avalonia.DependencyInjectionPoc.Android.csproj", "{3579260C-7868-442D-8B09-224A04BA9C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.DependencyInjectionPoc.Desktop", "Avalonia.DependencyInjectionPoc\Avalonia.DependencyInjectionPoc.Desktop\Avalonia.DependencyInjectionPoc.Desktop.csproj", "{39EEC4FD-6872-47A2-AA98-7AAEA688E481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.DependencyInjectionPoc.iOS", "Avalonia.DependencyInjectionPoc\Avalonia.DependencyInjectionPoc.iOS\Avalonia.DependencyInjectionPoc.iOS.csproj", "{64FA151E-EE8D-4CFF-A585-649CE2CA3C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.DependencyInjectionPoc.Browser", "Avalonia.DependencyInjectionPoc\Avalonia.DependencyInjectionPoc.Browser\Avalonia.DependencyInjectionPoc.Browser.csproj", "{1D52A6C3-35DA-4877-9EBC-C22C13901711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92FB4894-4CB8-4CD4-ACE3-C39B66E20A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FB4894-4CB8-4CD4-ACE3-C39B66E20A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FB4894-4CB8-4CD4-ACE3-C39B66E20A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FB4894-4CB8-4CD4-ACE3-C39B66E20A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3579260C-7868-442D-8B09-224A04BA9C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3579260C-7868-442D-8B09-224A04BA9C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EEC4FD-6872-47A2-AA98-7AAEA688E481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EEC4FD-6872-47A2-AA98-7AAEA688E481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EEC4FD-6872-47A2-AA98-7AAEA688E481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EEC4FD-6872-47A2-AA98-7AAEA688E481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FA151E-EE8D-4CFF-A585-649CE2CA3C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA151E-EE8D-4CFF-A585-649CE2CA3C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D52A6C3-35DA-4877-9EBC-C22C13901711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D52A6C3-35DA-4877-9EBC-C22C13901711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DB760CC-F1F7-4907-AB3F-CF0697E3481F}
+	EndGlobalSection
+EndGlobal
