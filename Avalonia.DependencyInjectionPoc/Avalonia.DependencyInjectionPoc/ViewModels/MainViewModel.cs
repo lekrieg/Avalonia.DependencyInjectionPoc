@@ -1,9 +1,21 @@
-﻿namespace Avalonia.DependencyInjectionPoc.ViewModels
+﻿using ReactiveUI;
+using System.Windows.Input;
+
+namespace Avalonia.DependencyInjectionPoc.ViewModels;
+
+public class MainViewModel : ViewModelBase
 {
-	public class MainViewModel : ViewModelBase
+	private string _randomText = "u,u";
+	public string RandomText
 	{
-#pragma warning disable CA1822 // Mark members as static
-		public string Greeting => "Welcome to Avalonia!";
-#pragma warning restore CA1822 // Mark members as static
+		get => _randomText;
+		set => this.RaiseAndSetIfChanged(ref _randomText, value);
+	}
+
+	public ICommand MyCommand { get; set; }
+
+	public MainViewModel()
+	{
+		MyCommand = ReactiveCommand.Create(() => { RandomText = "Lol"; });
 	}
 }

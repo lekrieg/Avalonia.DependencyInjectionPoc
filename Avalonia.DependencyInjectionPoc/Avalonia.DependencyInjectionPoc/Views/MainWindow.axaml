@@ -6,7 +6,8 @@
         xmlns:views="clr-namespace:Avalonia.DependencyInjectionPoc.Views"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Avalonia.DependencyInjectionPoc.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Avalonia.DependencyInjectionPoc">
-        <views:MainView />
+        Title="Avalonia.DependencyInjectionPoc"
+        Content="{Binding MainV}">
 </Window>

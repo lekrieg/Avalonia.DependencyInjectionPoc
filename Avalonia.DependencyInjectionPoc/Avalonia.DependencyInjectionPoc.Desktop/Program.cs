@@ -1,5 +1,4 @@
-﻿using Avalonia;
-using Avalonia.ReactiveUI;
+﻿using Avalonia.ReactiveUI;
 using System;
 
 namespace Avalonia.DependencyInjectionPoc.Desktop
@@ -19,6 +18,7 @@ namespace Avalonia.DependencyInjectionPoc.Desktop
 				.UsePlatformDetect()
 				.WithInterFont()
 				.LogToTrace()
-				.UseReactiveUI();
+				.UseReactiveUI()
+				.UseLamar();
 	}
 }

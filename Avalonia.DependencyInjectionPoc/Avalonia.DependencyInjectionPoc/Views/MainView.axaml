@@ -12,5 +12,8 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <StackPanel>
+    <TextBlock Text="{Binding RandomText}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <Button Content="Test" HorizontalAlignment="Center" Command="{Binding MyCommand}"/>
+  </StackPanel>
 </UserControl>

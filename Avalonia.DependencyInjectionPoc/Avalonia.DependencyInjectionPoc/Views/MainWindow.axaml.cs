@@ -1,8 +1,8 @@
-using Avalonia.Controls;
+using Avalonia.DependencyInjectionPoc.ViewModels;
 
 namespace Avalonia.DependencyInjectionPoc.Views
 {
-	public partial class MainWindow : Window
+	public partial class MainWindow : WindowBase<MainWindowViewModel>
 	{
 		public MainWindow()
 		{

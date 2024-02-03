@@ -1,8 +1,9 @@
 using Avalonia.Controls;
+using Avalonia.DependencyInjectionPoc.ViewModels;
 
 namespace Avalonia.DependencyInjectionPoc.Views
 {
-	public partial class MainView : UserControl
+	public partial class MainView : UserControlBase<MainViewModel>
 	{
 		public MainView()
 		{
