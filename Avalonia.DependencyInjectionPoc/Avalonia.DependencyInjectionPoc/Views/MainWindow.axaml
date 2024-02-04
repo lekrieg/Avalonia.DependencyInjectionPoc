@@ -7,6 +7,7 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Avalonia.DependencyInjectionPoc.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
+        Width="800" Height="450"
         Icon="/Assets/avalonia-logo.ico"
         Title="Avalonia.DependencyInjectionPoc"
         Content="{Binding MainV}">

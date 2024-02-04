@@ -3,17 +3,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:Avalonia.DependencyInjectionPoc.ViewModels"
+             xmlns:controls="using:Avalonia.DependencyInjectionPoc.StyledComponents"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             Width="800" Height="450"
              x:Class="Avalonia.DependencyInjectionPoc.Views.MainView"
              x:DataType="vm:MainViewModel">
   <Design.DataContext>
-    <!-- This only sets the DataContext for the previewer in an IDE,
-         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
     <vm:MainViewModel />
   </Design.DataContext>
 
   <StackPanel>
-    <TextBlock Text="{Binding RandomText}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-    <Button Content="Test" HorizontalAlignment="Center" Command="{Binding MyCommand}"/>
+    <Button Margin="40" HorizontalAlignment="Left" VerticalAlignment="Top">
+      <PathIcon Data="{StaticResource calendar_work_week_regular}"/>
+    </Button>
+    
+    <controls:FloatingButtonBar Background="White" OpenLength="250" ExpandDirection="ToBottom">
+      <Button/>
+      <Button/>
+      <Button/>
+      <Button/>
+    </controls:FloatingButtonBar>
   </StackPanel>
 </UserControl>
